@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil Mahasiswa"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Nama: Ridho Saputra"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tvNim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nim: 2517052802070"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+    <TextView
+        android:id="@+id/tvProdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Studi: TI"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+    <TextView
+        android:id="@+id/txtSapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profil Mahasiswa"
+        android:textSize="28sp" />
+    <!-- TextView Nama/NIM dari Praktikum 2 tetap di sini -->
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website Kampus" />
+    <Button
+        android:id="@+id/btnTelepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telepon Akademik" />
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Akademik"/>
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali" />
+</LinearLayout>
